@@ -15,7 +15,7 @@ const item_1 = document.querySelector("#p1e1m")
 const item_2 = document.querySelector("#p1e2m")
 const ability = document.querySelector("#p1am")
 
-//This correspond to the form that is submited when "fight" button is pressed
+// This correspond to the form that is submited when "fight" button is pressed
 const item_1_form = document.querySelector("#p1e1")
 const item_2_form = document.querySelector("#p1e2")
 const ability_form = document.querySelector("#p1a")
