@@ -13,7 +13,7 @@ const item_1 = document.querySelector("#p1e1m")
 const item_2 = document.querySelector("#p1e2m")
 const ability = document.querySelector("#p1am")
 
-//This correspond to the form that is submited when "fight" button is pressed
+// This correspond to the form that is submited when "fight" button is pressed
 const item_1_form = document.querySelector("#p1e1")
 const item_2_form = document.querySelector("#p1e2")
 const ability_form = document.querySelector("#p1a")
@@ -57,7 +57,7 @@ const select_item_2 = 2
 // Ability ID 21 is lens flare which is recomended for one shot enemies without getting damage.
 const select_ability = 21
 
-// Default items changes after page is loaded so this will detect that change and then selects correct weapon setup.
+// Default items changes after page is loaded this will detect that change and then select correct weapon setup.
 const observador = new MutationObserver(function(mutationsList, observer) {
     for (const mutation of mutationsList) {
         if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
