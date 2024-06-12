@@ -6,6 +6,8 @@
 // @author       Ramsestone
 // @match        https://www.neopets.com/dome/arena.phtml
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=neopets.com
+// @updateURL    https://github.com/ramsestone/BD-Weapon-Selector/releases/download/v1/bd-weapon-selector.js
+// @downloadURL  https://github.com/ramsestone/BD-Weapon-Selector/releases/download/v1/bd-weapon-selector.js
 // ==/UserScript==
 
 // This correspond to the elements that displays images
@@ -57,7 +59,7 @@ const select_item_2 = 2
 // Ability ID 21 is lens flare which is recomended for one shot enemies without getting damage.
 const select_ability = 21
 
-// Default items changes after page is loaded so this will detect that change and then selects correct weapon setup.
+// Default items changes after page is loaded this will detect that change and then select correct weapon setup.
 const observador = new MutationObserver(function(mutationsList, observer) {
     for (const mutation of mutationsList) {
         if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
