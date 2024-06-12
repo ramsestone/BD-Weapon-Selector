@@ -2,6 +2,9 @@
 
 **BD-Weapon-Selector** is a Tampermonkey userscript for Neopets. This script automatically selects weapons and abilities on the Battledome page, streamlining your battling experience.
 
+![20240612-0655-24 9294269-ezgif com-video-to-gif-converter](https://github.com/ramsestone/BD-Weapon-Selector/assets/74755255/9cfa4fc2-59c8-4002-b886-fd3728c3f5c0)
+
+
 ## Disclaimer
 This script is designed to be safe but I'm not responsible for any actions taken against your account as a result of using this script. Use at your own risk.
 
