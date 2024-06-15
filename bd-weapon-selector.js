@@ -92,4 +92,5 @@ const observador = new MutationObserver(function(mutationsList, observer) {
     }
 });
 
-observador.observe(item_1, attributes=true);
+const opcionesDeObservacion = {attributes: true};
+observador.observe(item_1, opcionesDeObservacion);
