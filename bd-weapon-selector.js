@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BD Weapon Selector
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.0.1
 // @description  Automatically selects weapons and abilities in BD page
 // @author       Ramsestone
 // @match        https://www.neopets.com/dome/arena.phtml
